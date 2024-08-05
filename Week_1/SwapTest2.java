@@ -2,6 +2,7 @@ package Week_1;
 
 class MutableDouble {
     public double value;
+
     public MutableDouble(double value) {
         this.value = value;
     }
