@@ -24,6 +24,7 @@ class SwapTest4 {
 
     static class Container {
         Object value;
+
         Container(Object value) {
             this.value = value;
         }
