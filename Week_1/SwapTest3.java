@@ -2,6 +2,7 @@ package Week_1;
 
 class MutableString {
     public String value;
+
     public MutableString(String value) {
         this.value = value;
     }
