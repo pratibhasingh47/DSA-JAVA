@@ -13,7 +13,6 @@ class DemoClass {
     void genericPrint(double d) {
         System.out.println(d);
     }
-
     public static void main(String[] args) {
         DemoClass aObj = new DemoClass(); // Creating an object of the class DemoClass
         aObj.genericPrint(101); // Calling generic method with int argument
