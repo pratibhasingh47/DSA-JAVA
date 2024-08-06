@@ -39,14 +39,14 @@ class GenericMultiArrays<T, S> {
     }
 
     // Overloaded methods in the generic class
-    void printData(T[] t) { // A generic method to print the elements in array t
+    void printTData(T[] t) { // A generic method to print the elements in array t
         for (T element : t) {
             System.out.print(element + " ");
         }
         System.out.println(); // Print a new line
     }
 
-    void printData(S[] s) { // An overloaded generic method to print elements in s
+    void printSData(S[] s) { // An overloaded generic method to print elements in s
         for (S element : s) {
             if (element instanceof Student) {
                 ((Student) element).printStudent(); // Print the i-th student in s
@@ -58,7 +58,7 @@ class GenericMultiArrays<T, S> {
     }
 
     // Few additional methods
-    void reverseArray(T[] t) { // Generic method to reverse the order of elements in t
+    void reverseTArray(T[] t) { // Generic method to reverse the order of elements in t
         int front = 0, rear = t.length - 1;
         while (front < rear) {
             T temp = t[rear];
@@ -69,7 +69,7 @@ class GenericMultiArrays<T, S> {
         }
     }
 
-    void reverseArray(S[] s) { // Generic method to reverse the order of elements in s
+    void reverseSArray(S[] s) { // Generic method to reverse the order of elements in s
         int front = 0, rear = s.length - 1;
         while (front < rear) {
             S temp = s[rear];
@@ -97,15 +97,15 @@ public class GenericMultiArraysDemo {
         GenericMultiArrays<String, Student> arrayData = new GenericMultiArrays<>(t, s);
 
         // Printing the data ...
-        arrayData.printData(t); // Printing the array of strings
-        arrayData.printData(s); // Printing the student’s data
+        arrayData.printTData(t); // Printing the array of strings
+        arrayData.printSData(s); // Printing the student’s data
 
         // Reverse ordering of data ...
-        arrayData.reverseArray(t);
-        arrayData.reverseArray(s);
+        arrayData.reverseTArray(t);
+        arrayData.reverseSArray(s);
 
         // Printing the data after reverse ordering ...
-        arrayData.printData(t); // Printing the array of strings
-        arrayData.printData(s); // Printing the array of students
+        arrayData.printTData(t); // Printing the array of strings
+        arrayData.printSData(s); // Printing the array of students
     }
 }
