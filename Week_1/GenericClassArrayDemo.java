@@ -38,7 +38,7 @@ class GenericArray<T> {
 public class GenericClassArrayDemo {
     public static void main(String[] args) {
         // Creating an array of integer data
-        Integer x[] = {10, 20, 30, 40, 50}; // It is an array of Integer numbers
+        Integer x[] = { 10, 20, 30, 40, 50 }; // It is an array of Integer numbers
         // Store the data into generic array
         GenericArray<Integer> aInt = new GenericArray<>(x);
         // Printing the data ...
@@ -49,7 +49,7 @@ public class GenericClassArrayDemo {
         GenericArray.printData(aInt); // Printing the array of integer objects after reversing
 
         // Creating an array of string data
-        String y[] = {"A", "B", "C", "D", "E"}; // It is an array of String objects
+        String y[] = { "A", "B", "C", "D", "E" }; // It is an array of String objects
         // Store the data into a generic array
         GenericArray<String> bString = new GenericArray<>(y);
         // Printing the data ...
@@ -60,7 +60,7 @@ public class GenericClassArrayDemo {
         GenericArray.printData(bString); // Printing the array of string objects after reversing
 
         // Creating an array of double data
-        Double z[] = {1.2, 2.3, 3.4, 4.5, 5.6}; // It is an array of double values
+        Double z[] = { 1.2, 2.3, 3.4, 4.5, 5.6 }; // It is an array of double values
         // Store the data into a generic array
         GenericArray<Double> cDouble = new GenericArray<>(z);
         // Printing the data ...
