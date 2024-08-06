@@ -30,7 +30,7 @@ class SpecificArrayDouble {
 public class MainClassDouble {
     public static void main(String[] args) {
         // Create an instance of SpecificArrayDouble with given elements
-        double[] array = {1.2, 2.3, 3.4, 4.5, 5.6};
+        double[] array = { 1.2, 2.3, 3.4, 4.5, 5.6 };
         SpecificArrayDouble b = new SpecificArrayDouble(array);
 
         // Print the original array
