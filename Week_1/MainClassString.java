@@ -30,7 +30,7 @@ class SpecificArrayString {
 public class MainClassString {
     public static void main(String[] args) {
         // Create an instance of SpecificArrayString with given elements
-        String[] array = {"A", "B", "C", "D", "E"};
+        String[] array = { "A", "B", "C", "D", "E" };
         SpecificArrayString c = new SpecificArrayString(array);
 
         // Print the original array
