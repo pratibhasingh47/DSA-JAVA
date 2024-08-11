@@ -66,4 +66,5 @@ public class Insertion1DArray {
 
         arrayOps.insert(item, pos);
     }
+    Scanner.close();
 }
