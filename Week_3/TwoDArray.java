@@ -1,5 +1,5 @@
-import java.util.*;
 package Week_3;
+import java.util.*;
 
 public class TwoDArray {
     int[][] a;
@@ -20,6 +20,7 @@ public class TwoDArray {
                 a[i][j] = in.nextInt();
             }
         }
+        in.close();
     }
 
     public void printRowMajor() {
