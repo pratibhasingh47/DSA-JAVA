@@ -18,6 +18,7 @@ public class ArrayDefinitionDemo {
         a[4] = new double[66];
         a[4][65] = 3.14;
 
+        @SuppressWarnings("unused")
         Object[] objects = {x, args, isPrime, fib, b, a};
     }
 }
