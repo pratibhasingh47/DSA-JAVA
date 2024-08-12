@@ -3,10 +3,11 @@ import java.util.*;
 
 public class TwoDArrayDemo {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
         TwoDArray x = new TwoDArray(3, 4);
-        x.initialize();
+        x.initialize(in);
         TwoDArray y = new TwoDArray(3, 4);
-        y.initialize();
+        y.initialize(in);
 
         int[][] z = x.addition(y.a);
         if (z != null) {

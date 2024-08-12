@@ -3,6 +3,7 @@ import java.util.*;
 
 public class TwoDArray {
     int[][] a;
+    int[][] b;
     int row;
     int col;
 
@@ -12,15 +13,14 @@ public class TwoDArray {
         this.col = col;
     }
 
-    public void initialize() {
-        Scanner in = new Scanner(System.in);
+    public void initialize(Scanner in) {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 System.out.printf("Enter a[%d][%d]: ", i, j);
                 a[i][j] = in.nextInt();
             }
         }
-        in.close();
+        // in.close();
     }
 
     public void printRowMajor() {
