@@ -7,22 +7,21 @@ public class Deletion1DArray {
     int size = 0; // The number of items present
 
     // Method to initialize the array
-    public void create(int size) {
+    public void create(int size, Scanner scanner) {
         if (size > 100) {
             System.out.println("Could not initialize...");
             return;
         }
         this.size = size;
-        Scanner in = new Scanner(System.in); // To read from the keyboard
         try {
             for (int i = 0; i < size; i++) { // Reading the numbers
                 System.out.println("Enter " + (i + 1) + "th number ");
-                a[i] = in.nextInt(); // Load the i-th entry
+                a[i] = scanner.nextInt(); // Load the i-th entry
             }
             System.out.println("Capacity = " + a.length + ", Size = " + size);
             printArray(); // Display the array on the screen
-        } finally {
-            in.close(); // Ensure the Scanner is closed
+        } catch (Exception e) {
+            System.out.println("An error occurred: " + e.getMessage());
         }
     }
 
@@ -65,7 +64,7 @@ public class Deletion1DArray {
         try {
             System.out.println("Enter the number of elements: ");
             int n = in.nextInt();
-            arrayOps.create(n);
+            arrayOps.create(n, in);
 
             System.out.println("Enter the position of the number to be deleted: ");
             int pos = in.nextInt();
