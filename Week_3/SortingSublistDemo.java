@@ -14,5 +14,3 @@ public class SortingSublistDemo {
         System.out.println("Partially Sorted Integer Array: " + Arrays.toString(intArr));
     }
 }
-
-
