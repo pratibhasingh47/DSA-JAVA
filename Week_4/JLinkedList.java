@@ -1,6 +1,5 @@
 package Week_4;
 
-
 // Java program to implement a Singly Linked List
 public class JLinkedList<T> {
     private Node head; // Head of the list
@@ -87,7 +86,7 @@ public class JLinkedList<T> {
         while (l1Node.next != null) {
             l1Node = l1Node.next;
         }
-        
+
         // Connect the end of this list to the start of l2
         l1Node.next = l2Node;
     }
