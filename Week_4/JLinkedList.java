@@ -40,5 +40,32 @@ public class JLinkedList<T> {
         head.next = newNode;
     }
 
+    public void insertEnd(T data) {
+        Node newNode = new Node(data);
+        newNode.next = null;
+        Node temp = this.head;
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+        temp.next = newNode;
+    }
+
+    public void insertKey(T data, T key) {
+        Node newNode = new Node(data);
+        newNode.next = null;
+        Node temp = this.head;
+        boolean status = false;
+        while (temp != null) {
+            if (temp.data == key) {
+                status = true;
+                break;
+            }
+            temp = temp.next;
+        }
+        if (status) {
+            newNode.next = temp.next;
+            temp.next = newNode;
+        }
+    }
     // Additional methods to be defined …
 }
