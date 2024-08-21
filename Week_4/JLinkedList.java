@@ -1,7 +1,5 @@
 package Week_4;
 
-import java.io.*;
-import java.util.*;
 
 // Java program to implement a Singly Linked List
 public class JLinkedList<T> {
