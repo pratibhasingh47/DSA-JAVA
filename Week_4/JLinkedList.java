@@ -68,17 +68,17 @@ public class JLinkedList<T> {
         }
     }
 
-    public void printList(){
+    public void printList() {
         Node currNode = this.head.next;
         System.out.print("LinkedList: ");
         // Traverse through the LinkedList
-        while(currNode != null) {
-        // Print the data at current node
-        System.out.print(currNode.data + " ");
-        // Go to next node
-        currNode = currNode.next;
+        while (currNode != null) {
+            // Print the data at current node
+            System.out.print(currNode.data + " ");
+            // Go to next node
+            currNode = currNode.next;
         }
         System.out.println();
-        }
+    }
     // Additional methods to be defined …
 }
