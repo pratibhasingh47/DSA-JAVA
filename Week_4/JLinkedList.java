@@ -78,5 +78,7 @@ public class JLinkedList<T> {
         }
         System.out.println();
     }
+
+    
     // Additional methods to be defined …
 }
