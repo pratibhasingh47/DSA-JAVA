@@ -79,6 +79,17 @@ public class JLinkedList<T> {
         System.out.println();
     }
 
-    
+    public void merge(JLinkedList<T> l2) {
+        Node l1Node = this.head;
+        Node l2Node = l2.head.next; // Skip the dummy node in l2
+
+        // Traverse to the end of this list
+        while (l1Node.next != null) {
+            l1Node = l1Node.next;
+        }
+        
+        // Connect the end of this list to the start of l2
+        l1Node.next = l2Node;
+    }
     // Additional methods to be defined …
 }
