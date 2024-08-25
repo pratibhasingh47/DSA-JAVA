@@ -104,6 +104,7 @@ public class JLinkedList<T> {
         return x; // Return the deleted data
     }
 
+    @SuppressWarnings("null")
     public T deleteEnd() {
         T x = null;
         Node temp = this.head.next, prev = null;
