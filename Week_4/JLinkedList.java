@@ -91,4 +91,16 @@ public class JLinkedList<T> {
         l1Node.next = l2Node;
     }
     // Additional methods to be defined …
+
+    public T deleteFront() {
+        T x = null;
+        Node temp = this.head.next, prev = null;
+        if (temp != null) {
+            x = temp.data;
+            this.head.next = temp.next; // Changed head
+            // Display the message
+            System.out.println("Element deleted");
+        }
+        return x; // Return the deleted data
+    }
 }
