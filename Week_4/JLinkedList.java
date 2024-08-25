@@ -118,4 +118,19 @@ public class JLinkedList<T> {
         return x;
     }
 
+    public void deleteKey(T key) {
+        Node temp = this.head.next, prev = null;
+        while (temp != null) {
+            if (temp.data == key) {
+                prev.next = temp.next;
+                // Display the message
+                System.out.println(key + " position element deleted");
+                break;
+            } else {
+                prev = temp;
+                temp = temp.next;
+            }
+        }
+    }
+
 }
