@@ -94,7 +94,7 @@ public class JLinkedList<T> {
 
     public T deleteFront() {
         T x = null;
-        Node temp = this.head.next, prev = null;
+        Node temp = this.head.next;
         if (temp != null) {
             x = temp.data;
             this.head.next = temp.next; // Changed head
