@@ -133,4 +133,31 @@ public class JLinkedList<T> {
         }
     }
 
+    // Function to remove and reverse the linked list starting from a given node
+    public Node reverse(Node node) {
+        Node current = node;
+        Node prev = null;
+        Node next = null;
+
+        while (current != null) {
+            next = current.next; // Store next node
+            current.next = prev; // Reverse the link
+            prev = current; // Move prev one step forward
+            current = next; // Move current one step forward
+        }
+
+        return prev; // New head of the reversed list
+    }
+
+    // Function to reverse the entire linked list
+    public void reverseList() {
+        if (this.head == null || this.head.next == null) {
+            return; // Empty list or list with only one element
+        }
+
+        this.head.next = reverse(this.head.next); // Reverse from the first element
+        System.out.println("Reversed List:");
+        printList(); // Print the reversed list
+    }
+
 }
