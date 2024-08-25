@@ -103,4 +103,19 @@ public class JLinkedList<T> {
         }
         return x; // Return the deleted data
     }
+
+    public T deleteEnd() {
+        T x = null;
+        Node temp = this.head.next, prev = null;
+        if (temp != null) { // If the list is not empty
+            while (temp != null) { // Move to the end node
+                prev = temp;
+                temp = temp.next;
+            }
+            x = temp.data;
+            prev.next = null;
+        }
+        return x;
+    }
+
 }
