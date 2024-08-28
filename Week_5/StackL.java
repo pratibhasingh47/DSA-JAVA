@@ -6,13 +6,17 @@ class JLinkedList<T> {
     private Node<T> head;
 
     // Inner class for Node
-    private static class Node<T> {
+    static class Node<T> {
         T data;
         Node<T> next;
 
         Node(T data) {
             this.data = data;
             this.next = null;
+        }
+
+        public String getData() {
+            throw new UnsupportedOperationException("Unimplemented method 'getData'");
         }
     }
 
