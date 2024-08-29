@@ -13,7 +13,7 @@ public class StackToArrayListCopyDemo {
 
         // Create a collection object of type ArrayList
         ArrayList<Integer> list = new ArrayList<>();
-        
+
         // Copy the elements in stack to the collection
         list.addAll(stack);
 

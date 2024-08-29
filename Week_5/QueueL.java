@@ -5,7 +5,7 @@ import java.util.NoSuchElementException;
 
 public class QueueL<T> {
     private LinkedList<T> list;
-    
+
     public QueueL() {
         list = new LinkedList<>();
     }

@@ -22,7 +22,8 @@ public class StackSizeSearchExample {
         System.out.println("Size of Stack: " + stackOfCards.size());
 
         // Search for an element
-        // The search() method returns the 1-based position of the element from the top of the stack
+        // The search() method returns the 1-based position of the element from the top
+        // of the stack
         // It returns -1 if the element was not found in the stack
         int position = stackOfCards.search("Queen");
         if (position != -1) {
