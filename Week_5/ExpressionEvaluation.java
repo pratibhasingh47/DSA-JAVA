@@ -12,9 +12,10 @@ public class ExpressionEvaluation {
 
             // If the scanned character is an operand (number here), push it to the stack
             if (Character.isDigit(c)) {
-                stack.push(c - '0');  // Convert char to int and push onto the stack
+                stack.push(c - '0'); // Convert char to int and push onto the stack
             }
-            // If the scanned character is an operator, pop two elements from stack and apply the operator
+            // If the scanned character is an operator, pop two elements from stack and
+            // apply the operator
             else {
                 int val1 = stack.pop();
                 int val2 = stack.pop();

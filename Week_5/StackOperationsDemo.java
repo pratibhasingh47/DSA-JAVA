@@ -10,8 +10,10 @@ public class StackOperationsDemo {
         System.out.println("Empty stack: " + stack);
         System.out.println("Is stack empty? " + stack.empty());
 
-        /* Uncommenting the following line will throw an exception 
-           if you try to pop an item from an empty stack. */
+        /*
+         * Uncommenting the following line will throw an exception
+         * if you try to pop an item from an empty stack.
+         */
         // System.out.println("Empty stack: Pop Operation: " + stack.pop());
 
         // Inserting some data into the stack

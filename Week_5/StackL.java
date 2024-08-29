@@ -34,7 +34,8 @@ class JLinkedList<T> {
 
     // Method to remove and return the first element
     public T removeFirst() {
-        if (head == null) return null;
+        if (head == null)
+            return null;
         T removedData = head.data;
         head = head.next;
         return removedData;
