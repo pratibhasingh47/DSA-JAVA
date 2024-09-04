@@ -7,7 +7,7 @@ import java.util.Queue;
 public class ArrayToQueue {
     public static void main(String[] args) {
         // Create an array of String objects
-        String[] city = {"CCU", "DEL", "BLR", "MUM", "GAU"};
+        String[] city = { "CCU", "DEL", "BLR", "MUM", "GAU" };
 
         // Declare a queue
         Queue<String> queue = new PriorityQueue<>();
