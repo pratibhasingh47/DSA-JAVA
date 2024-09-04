@@ -3,8 +3,8 @@ package Week_5;
 import java.util.Arrays;
 
 public class StackA<T> {
-    private T[] data;
-    private int length;
+    private final T[] data;
+    private final int length;
     private int top;
 
     @SuppressWarnings("unchecked")
