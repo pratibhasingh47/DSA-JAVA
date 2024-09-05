@@ -12,7 +12,7 @@ public class QueueElementAccess {
 
         // Accessing the head element without removing it
         System.out.println("Head of the queue: " + queue.element());
-        
+
         // Printing the queue
         System.out.println("Queue: " + queue);
 
