@@ -20,7 +20,7 @@ public class ArrayDequeDemo {
         while (adq.peek() != null) {
             System.out.print(adq.pop() + " ");
         }
-        
+
         System.out.println();
     }
 }
