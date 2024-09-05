@@ -20,7 +20,7 @@ public class QueueToArray {
 
         // Printing the array
         System.out.println("Array: " + Arrays.toString(friends));
-        
+
         // Printing the queue
         System.out.println("Queue: " + queue);
     }
