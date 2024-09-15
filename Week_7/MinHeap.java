@@ -1,9 +1,9 @@
 package Week_7;
 
 public class MinHeap<T extends Comparable<T>> {
-    private T[] Heap;
+    private final T[] Heap;
     private int size;
-    private int maxsize;
+    private final int maxsize;
     private static final int FRONT = 1;
 
     // Constructor
