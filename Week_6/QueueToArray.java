@@ -16,7 +16,7 @@ public class QueueToArray {
         queue.add("!@#$%");
 
         // Copying the queue to an array of String objects
-        String[] friends = queue.toArray(new String[0]);
+        String[] friends = queue.toArray(String[]::new);
 
         // Printing the array
         System.out.println("Array: " + Arrays.toString(friends));
