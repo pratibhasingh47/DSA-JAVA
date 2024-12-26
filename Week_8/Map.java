@@ -10,4 +10,3 @@ class HashMapCreateDemo {
         System.out.println(hMap);
     }
 }
-
