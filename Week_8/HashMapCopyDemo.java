@@ -1,7 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
 
-
 class HashMapCopyDemo {
     public static void main(String[] args) {
         Map<String, Double> hMap1 = new HashMap<>();
