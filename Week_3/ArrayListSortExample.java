@@ -11,9 +11,9 @@ public class ArrayListSortExample {
         names.add("Preeti");
         names.add("Jay");
         names.add("Soma");
-        
+
         System.out.println("Names : " + names);
-        
+
         // Sort an ArrayList using its sort() method with a custom Comparator.
         names.sort(new Comparator<String>() {
             @Override
@@ -21,7 +21,7 @@ public class ArrayListSortExample {
                 return name1.compareTo(name2);
             }
         });
-        
+
         System.out.println("Sorted Names : " + names);
     }
 }
