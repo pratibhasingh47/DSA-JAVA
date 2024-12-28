@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArraysBinarySearchSubListDemo {
     public static void main(String[] args) {
-        int[] intArr = {10, 20, 15, 22, 35}; // An int array as input
+        int[] intArr = { 10, 20, 15, 22, 35 }; // An int array as input
 
         // Sort the array
         Arrays.sort(intArr);
