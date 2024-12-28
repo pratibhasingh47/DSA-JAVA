@@ -12,12 +12,12 @@ public class ArrayListCollectionsSortExample {
         numbers.add(18);
         numbers.add(5);
         numbers.add(2);
-        
+
         System.out.println("Before : " + numbers);
-        
+
         // Sorting an ArrayList using Collections.sort() method
         Collections.sort(numbers);
-        
+
         System.out.println("After : " + numbers);
     }
 }
