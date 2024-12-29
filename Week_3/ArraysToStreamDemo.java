@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 public class ArraysToStreamDemo {
     public static void main(String[] args) {
         // Get the Array
-        int[] intArr = {10, 20, 15, 22, 35};
+        int[] intArr = { 10, 20, 15, 22, 35 };
 
         // To get the Stream from the array
         IntStream intStream = Arrays.stream(intArr);
