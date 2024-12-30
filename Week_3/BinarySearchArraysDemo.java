@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BinarySearchArraysDemo {
     public static void main(String[] args) {
         // Get the Array
-        int[] intArr = {10, 20, 15, 22, 35};
+        int[] intArr = { 10, 20, 15, 22, 35 };
 
         // Sort the array before performing a binary search
         Arrays.sort(intArr);
