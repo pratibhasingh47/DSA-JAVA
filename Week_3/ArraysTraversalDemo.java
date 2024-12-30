@@ -6,7 +6,7 @@ import java.util.Spliterator;
 public class ArraysTraversalDemo {
     public static void main(String[] args) {
         // Get the Array
-        int[] intArr = {10, 20, 15, 22, 35};
+        int[] intArr = { 10, 20, 15, 22, 35 };
 
         // Create a Spliterator for the entire array
         Spliterator.OfInt spliterator = Arrays.spliterator(intArr);
@@ -19,7 +19,7 @@ public class ArraysTraversalDemo {
         final int end = 3;
 
         // Use an array to keep track of the index
-        final int[] index = {0};
+        final int[] index = { 0 };
 
         // Traverse using tryAdvance
         spliterator.forEachRemaining((int value) -> {
