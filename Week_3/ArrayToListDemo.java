@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ArrayToListDemo {
     public static void main(String[] args) {
-        int[] intArr = {10, 20, 15, 22, 35}; // An array of int
+        int[] intArr = { 10, 20, 15, 22, 35 }; // An array of int
 
         // Convert the int array to an Integer array
         Integer[] intArrWrapper = Arrays.stream(intArr).boxed().toArray(Integer[]::new);
