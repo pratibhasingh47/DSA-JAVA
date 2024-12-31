@@ -18,7 +18,7 @@ public class CreateArrayListFromCollectionExample {
         numbers.add(17);
 
         // Printing the two collections
-        System.out.println(aList);  // Printing the aList collection
-        System.out.println(numbers);  // Printing the numbers collection
+        System.out.println(aList); // Printing the aList collection
+        System.out.println(numbers); // Printing the numbers collection
     }
 }
