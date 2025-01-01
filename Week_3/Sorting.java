@@ -33,9 +33,9 @@ class Sortbyroll implements Comparator<Student> {
 public class Sorting {
     public static void main(String[] args) {
         Student[] arr = {
-            new Student(111, "bbbb", "london"),
-            new Student(131, "aaaa", "nyc"),
-            new Student(121, "cccc", "jaipur")
+                new Student(111, "bbbb", "london"),
+                new Student(131, "aaaa", "nyc"),
+                new Student(121, "cccc", "jaipur")
         };
 
         System.out.println("Unsorted:");
