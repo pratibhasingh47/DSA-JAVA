@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RangeCopyArraysDemo {
     public static void main(String[] args) {
-        int[] intArr = {10, 20, 15, 22, 35}; // Get an array of int
+        int[] intArr = { 10, 20, 15, 22, 35 }; // Get an array of int
 
         // To print the elements in one line
         System.out.println("Integer Array: " + Arrays.toString(intArr));
