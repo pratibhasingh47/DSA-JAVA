@@ -20,7 +20,8 @@ public class Insertion1DArray {
         }
         System.out.println("Capacity = " + a.length + ", Size = " + size);
         printArray(); // Display the array on the screen
-        in.close();;
+        in.close();
+        
     }
 
     // Method to insert an element at a specific location in the array
