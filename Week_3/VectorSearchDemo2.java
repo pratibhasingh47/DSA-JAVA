@@ -12,7 +12,7 @@ class VectorSearchDemo2 {
         v.add(2);
         v.add("Java");
         v.add(4);
-        
+
         // Checking last occurrence of 2
         System.out.println("Last occurrence of 2 is: " + v.lastIndexOf(2));
     }
