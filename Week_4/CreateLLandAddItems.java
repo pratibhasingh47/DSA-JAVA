@@ -6,7 +6,7 @@ public class CreateLLandAddItems {
     public static void main(String args[]) {
         // Creating an empty linked list of class LinkedList
         LinkedList<String> ll = new LinkedList<String>();
-        
+
         // Adding elements to the linked list using a number of add methods
         ll.add("Mumbai");
         ll.add("Chennai");
