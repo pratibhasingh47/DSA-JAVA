@@ -2,6 +2,7 @@ package Week_1;
 
 class MutableInt {
     public int value;
+
     public MutableInt(int value) {
         this.value = value;
     }
@@ -14,7 +15,7 @@ public class SwapTest1 {
         y.value = temp;
     }
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         MutableInt x = new MutableInt(99);
         MutableInt y = new MutableInt(66);
         System.out.println("x = " + x.value + " " + "y = " + y.value);
