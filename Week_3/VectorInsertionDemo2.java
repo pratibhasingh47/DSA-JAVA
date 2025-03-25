@@ -10,6 +10,7 @@ public class VectorInsertionDemo2 {
         // Add elements at specific indices
         v.add(1); // Add 1 at index 0 (corrected from the original code)
         v.add(2); // Add 2 at index 1
+        v.add(2); // Add 2 at index 1
         v.add(0, "Debais"); // Add "Debasis" at index 0, shifting existing elements
         v.add(3, "Samanta"); // Add "Samanta" at index 3
         v.add(4, 3); // Add 3 at index 4
